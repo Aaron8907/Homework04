@@ -521,6 +521,8 @@ function question11() {
  });
 }
 
+var score= localStorage.getItem("points");
+
 function endGame(){
   cardTimer.setAttribute("style", "display:none");
   body.setAttribute("style","background-color:black");
@@ -529,8 +531,7 @@ function endGame(){
   document.body.appendChild(divFinal);
   divFinal.setAttribute("style","margin-left:500px");
   divFinal.setAttribute("style","font-size: 80px");
-  //divFinal.setAttribute("style","display:inline");
-  
+  localStorage.setItem("score",points);
 };
 
 function harrypotterL(){
@@ -539,6 +540,9 @@ function harrypotterL(){
   var divFinal=document.createElement("div");
   divFinal.textContent="Need to read Harry Potter ASAP!";
   document.body.appendChild(divFinal);
+  var picture=document.createElement("img");
+  document.body.appendChild(picture);
+  picture.setAttribute("src","https://i1.wp.com/pbs.twimg.com/media/CjVqxiFUYAAk0sk.jpg");
 };
 
 function harrypotterW(){
@@ -547,6 +551,9 @@ function harrypotterW(){
   var divFinal=document.createElement("div");
   divFinal.textContent="Way to go Potterhead";
   document.body.appendChild(divFinal);
+  var picture=document.createElement("img");
+  document.body.appendChild(picture);
+  picture.setAttribute("src","https://imgix.bustle.com/rehost/2016/9/13/8154b8f5-ee31-4462-bc19-3dfe9ae46cdb.jpg?w=614&fit=crop&crop=faces&auto=format%2Ccompress&q=50&dpr=2");
 };
 
 
