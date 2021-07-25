@@ -14,4 +14,4 @@ Sceenshot of website:
 
 ## Links
 * https://github.com/Aaron8907/Homework04
-* https://github.com/Aaron8907/Homework04
+* https://aaron8907.github.io/Homework04/
