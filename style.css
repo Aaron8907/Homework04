@@ -1,0 +1,88 @@
+*{
+    color: white;
+}
+
+body{
+    background-image:url(https://media.istockphoto.com/photos/dark-blue-de-focused-blurred-motion-abstract-background-picture-id1216628493?b=1&k=6&m=1216628493&s=170667a&w=0&h=9P7C9QLC_g_OVFhWyzlnMaBC6jVIY0M41Zr72XLwCvM=);
+    background-repeat: no-repeat;
+    background-size: 700% 900%;   
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    font-size: 100px;
+    margin-left: 25%;
+}
+
+h2, button{
+  display: block;
+}
+
+
+
+.question{
+    margin: 10px ;
+    border: 5px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    width: fit-content;
+    margin: auto;  
+}
+
+.large-font {
+    font-size: 3.5em;
+    text-align:center;
+  }
+
+
+
+  p, button{
+    background: black;
+    border-radius: 8px;
+    color:white;
+    cursor:grab;
+    font-size: 20px;
+    line-height: 15px;
+    width: auto;
+    padding: 25px 52px;
+    text-align: center;
+    margin-left: 100px;
+    border-spacing: 10px;
+    }
+
+    #startButton {
+      background: radial-gradient(circle,white 0%,blue 100%);
+      border-radius: 8px;
+      color:black;
+      cursor: pointer;
+      font-size: 40px;
+      line-height: 15px;
+      width: 255px;
+      padding: 20px 52px;
+      text-align: center;
+      position: relative;
+      top: 50%;
+      margin-left: 20px;
+      left: 40%;
+    }
+  
+
+  .card {
+    background: black;
+    border: 1px solid #eceff1;
+    border-radius: 8px;
+    margin: auto;
+    padding: 20px;
+    width: 200px;
+    height: 100px;
+    display: none;
+  }
+
+  .timer {
+    padding: 10px;
+    background:black;
+    color: white;
+    text-align: center;
+  }
